@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maximum Solar System</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Three.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/examples/js/controls/OrbitControls.js"></script>
+</head>
+<body>
+  <!-- UI Panel -->
+  <div id="ui-panel">
+    <h1>Maximum Solar System</h1>
+    <div>
+      Mode: 
+      <button class="mode-btn" data-mode="A">Clean</button>
+      <button class="mode-btn" data-mode="B">Cinematic</button>
+      <button class="mode-btn" data-mode="C">Game</button>
+    </div>
+    <div>
+      <span>Click a planet to focus</span>
+    </div>
+  </div>
+
+  <!-- 3D Canvas -->
+  <canvas id="scene-canvas"></canvas>
+
+  <script src="main.js"></script>
+</body>
+</html>
